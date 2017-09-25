@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['Ulumusu.pythonanywhere.com']
 
+#hehehehe
 # 'Ulumusu.pythonanywhere.com'
 # Application definition
 
