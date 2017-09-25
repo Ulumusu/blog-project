@@ -25,9 +25,9 @@ SECRET_KEY = '7b9u5h+n3=#)tq*3tlt6w=zdmu*nafz#9e6lktu^(gor@qxdq-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Ulumusu.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
-
+# 'Ulumusu.pythonanywhere.com'
 # Application definition
 
 INSTALLED_APPS = [
