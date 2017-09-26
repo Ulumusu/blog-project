@@ -25,7 +25,7 @@ SECRET_KEY = '7b9u5h+n3=#)tq*3tlt6w=zdmu*nafz#9e6lktu^(gor@qxdq-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Ulumusu.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 #hehehehe
 # 'Ulumusu.pythonanywhere.com'
@@ -121,3 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'public', 'static')
+
+STATICFILES_DIRS=(
+os.path.join(BASE_DIR, "static"),
+)

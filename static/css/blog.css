@@ -1,0 +1,64 @@
+.page-header {
+	border: 1px solid LightGrey;
+    background-color: white;
+    margin-top: 0;
+    padding: 10px 10px 10px 20px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+	
+    font-size: 36pt;
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #708090;
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+.content {
+	border: 1px solid LightGrey;
+	background-color: white;
+    margin-center: 40px;
+}
+
+
+ h2, h3, h4 {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
+	color: black;
+}
+
+.data {
+    color: #A9A9A9;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #708090;
+}
+body {
+	background-color: #F5F5F5;
+}
