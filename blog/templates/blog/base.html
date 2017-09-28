@@ -1,0 +1,42 @@
+<!doctype html>
+{% load staticfiles %}
+<html>
+	<head>
+		<title>Ulucancer</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+    <script type="text/JavaScript">
+    alert("Ten blog powstał w celach naukowych. Korzystałem z Djangogirls i oficjalnej dokumentacji Django.");
+    </script>
+
+	</head>
+
+	<body>
+
+
+
+		<div class="page-header">
+		<h1><a href="/">Ulucancer</a></h1>
+		</div>
+
+    <div class="links">
+    <div class="linkfont">
+    <a href="https://github.com/Ulumusu"><h3>Konto na Github</h3></a>
+    <a href="https://docs.djangoproject.com/en/1.11/intro/"><h3>Oficjalna dokumentacja django</h3></a>
+    <a href="https://tutorial.djangogirls.org/pl/"><h3>Djangogirls poradnik</h3></a>
+    </div>
+    </div>
+
+
+    <div class="content container">
+          <div class="row">
+              <div class="col-md-8">
+              {% block content %}
+              {% endblock %}
+              </div>
+          </div>
+      </div>
+  </body>
+</html>
