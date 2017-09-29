@@ -29,6 +29,7 @@
 }
 
 .content {
+
 	border: 1px solid LightGrey;
 	background-color: white;
     margin-center: 40px;
@@ -37,7 +38,8 @@
 
  h2, h3, h4 {
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	color: black;
+		color: black;
+	font-size: 24px;
 }
 
 .linkfont{
@@ -72,6 +74,9 @@
 
 .post h2 a, .post h2 a:visited {
     color: #708090;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		color: black;
+		font-size: 51px;
 }
 body {
 	background-color: #F5F5F5;
